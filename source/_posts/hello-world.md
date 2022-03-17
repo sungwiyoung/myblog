@@ -36,3 +36,7 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+
+### 추가 페이지
+안녕하세요!
+
