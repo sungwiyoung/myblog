@@ -7,7 +7,6 @@ output:
     keep_md: true
 ---
 
-
 # Hexo Blog 만들기
 
 참고 : [https://dschloe.github.io/settings/hexo_blog/](https://dschloe.github.io/settings/hexo_blog/)
@@ -16,15 +15,15 @@ output:
 
 링크 : [https://nodejs.org/en/](https://nodejs.org/en/)  → 16.14.1 LTS 로 설치
 
-![Untitled](/images/Hexo_Blog_install/Untitled.png)
+![Untitled](images/Hexo_Blog_install/Untitled.png)
 
 1. 설치 완료 후 마우스 우클릭하여서 Git Bash Here 선택
     
-    ![Untitled](/images/Hexo_Blog_install/Untitled%201.png)
+    ![Untitled](images/Hexo_Blog_install/Untitled%201.png)
     
 2. 명령어 창이 뜨는데 거기서 아래 명령어를 입력하여 버전을 확인해준다
     
-    ![Untitled](/images/Hexo_Blog_install/Untitled%202.png)
+    ![Untitled](images/Hexo_Blog_install/Untitled%202.png)
     
 
 ```bash
@@ -36,11 +35,11 @@ git --version
 
       (이름은 원하는대로 설정)
 
-![Untitled](/images/Hexo_Blog_install/Untitled%203.png)
+![Untitled](images/Hexo_Blog_install/Untitled%203.png)
 
 1. 설정 후 다시 2번의 상황을 반복한 후 아래의 명령어를 입력해준다.
     
-    ![Untitled](/images/Hexo_Blog_install/Untitled%204.png)
+    ![Untitled](images/Hexo_Blog_install/Untitled%204.png)
     
     ```bash
     hexo init "폴더명"
@@ -49,12 +48,12 @@ git --version
 2. 명령어를 입력해주면 바탕화면에 해당 폴더명으로 된 폴더가 생긴것을 확인.
 3. 그 폴더에 마우스 우클릭하여 파이참으로 실행하기
     
-    ![Untitled](/images/Hexo_Blog_install/Untitled%205.png)
+    ![Untitled](images/Hexo_Blog_install/Untitled%205.png)
     
 
 1. 파이참에서 아래의 명령어를 입력하여 실행해준다
 
-![Untitled](/images/Hexo_Blog_install/Untitled%206.png)
+![Untitled](images/Hexo_Blog_install/Untitled%206.png)
 
 ```bash
 echo "# myblog" >> README.md
@@ -82,9 +81,9 @@ git push -u origin main
 
   - title, url, deploy를 변경해주어야함.
 
-![Untitled](/images/Hexo_Blog_install/Untitled%207.png)
+![Untitled](images/Hexo_Blog_install/Untitled%207.png)
 
-![Untitled](/images/Hexo_Blog_install/Untitled%208.png)
+![Untitled](images/Hexo_Blog_install/Untitled%208.png)
 
 title : 원하는 타이틀로 입력해준다
 
@@ -111,7 +110,7 @@ $ npm install hexo-deployer-git --save
 
   - 4번과 동일하게 새로운 저장소를 만들어주는데 9번에서 입력한 url에서 사용자명에서 io까지로 입력하여 만들어준다.
 
-![Untitled](/images/Hexo_Blog_install/Untitled%209.png)
+![Untitled](images/Hexo_Blog_install/Untitled%209.png)
 
   - 아래의 명령어를 입력해주어 배포를 해준다.
 
@@ -136,18 +135,18 @@ hexo server
 $ hexo new "My New Post"
 ```
 
-![Untitled](/images/Hexo_Blog_install/Untitled%2010.png)
+![Untitled](images/Hexo_Blog_install/Untitled%2010.png)
 
 1. 입력해주면 파이참에  My-Nes-Post.md라는 파일이 생기는 것을 확인해준다.
     
-    ![Untitled](/images/Hexo_Blog_install/Untitled%2011.png)
+    ![Untitled](images/Hexo_Blog_install/Untitled%2011.png)
     
 
 1.  테마설치(명령어만 입력해주면 자동으로 바뀜)
 
 참고 페이지 : [https://hexo.io/themes/](https://hexo.io/themes/)
 
-![Untitled](/images/Hexo_Blog_install/Untitled%2012.png)
+![Untitled](images/Hexo_Blog_install/Untitled%2012.png)
 
   - 위 홈페이지 열린 후 파이참에서 아래의 명령어를 입력해준다
 
@@ -166,7 +165,7 @@ npm install --save bulma-stylus@0.8.0 hexo-renderer-inferno@^0.1.3
 
   - 다시 서버를 열어보고 잘 되었는지 확인해준다.
 
-![Untitled](/images/Hexo_Blog_install/Untitled%2013.png)
+![Untitled](images/Hexo_Blog_install/Untitled%2013.png)
 
 테마가 잘 바뀌었으면 정상적으로 된것임.
 
